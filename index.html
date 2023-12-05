@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سيرتي الذاتية</title>
+  <style>
+    body {
+	  direction:rtl;
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333333;
+      text-align: center;
+    }
+
+    .info {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .info h2 {
+      color: #333333;
+      margin-top: 0;
+    }
+
+    .info p {
+      color: #666666;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .skills {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .skills h2 {
+      color: #333333;
+      margin-top: 0;
+    }
+
+    .skills ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .skills li {
+      margin-bottom: 10px;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: center;
+      border: 1px solid #dddddd;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>سيرتي الذاتية</h1>
+  
+  <div class="info">
+    <h2>معلومات شخصية</h2>
+    <p>اسمي: محمد حزام الشهراني</p>
+    <p>العمر: 30 سنة</p>
+    <p>البريد الإلكتروني: example@example.com</p>
+    <p>الهاتف: 1234567890</p>
+  </div>
+  
+  <div class="info">
+    <h2>التعليم</h2>
+    <p>بكالوريوس في علوم الحاسوب، جامعة المثال، 2010-2014</p>
+    <p>ماجستير في تطوير البرمجيات، جامعة العلوم، 2014-2016</p>
+    <p>جامعة: بيشة</p>
+  </div>
+  
+  <div class="skills">
+    <h2>المهارات</h2>
+    <ul>
+      <li>تطوير واجهات المستخدم باستخدام HTML و CSS</li>
+      <li>برمجة الويب باستخدام JavaScript و PHP</li>
+      <li>قواعد البيانات و SQL</li>
+      <li>تطوير تطبيقات الجوال باستخدام React Native</li>
+    </ul>
+  </div>
+  
+  <div class="info">
+    <h2>الخبرات</h2>
+    <table>
+      <tr>
+        <th>المسمى الوظيفي</th>
+        <th>الشركة</th>
+        <th>الفترة</th>
+      </tr>
+      <tr>
+        <td>مطوّر ويب</td>
+        <td>شركة مثال لتكنولوجيا المعلومات</td>
+        <td>2016-2018</td>
+      </tr>
+      <tr>
+        <td>مهندس برمجيات</td>
+        <td>شركة عين للتقنية</td>
+        <td>2018-2020</td>
+      </tr>
+    </table>
+  </div>
+  
+  <script>
+    window.onload = function() {
+    // عرض رسالة ترحيبية عند تحميل الصفحة
+    alert("مرحبا بكم في موقع سيرتي الذاتية");
+    
+    // تغيير لون النص عند النقر على العنوان
+    var header = document.querySelector("h1");
+    header.addEventListener("click", function() {
+      header.style.color = "red";
+    });
+  };
+  
+  </script>
+</body>
+</html>
